@@ -2,23 +2,46 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    font: Geneva;
+    font: Helvetica;
 }
 h3 {
-    font: Geneva;
+    font: Helvetica;
+}
+p{
+    margin: 1rem;
 }
 body {
     background-color: rgb(255, 255, 255);
 }
 /*ugly gradient backgrounds*/
 article {
-    background-image: linear-gradient(rgb(198, 156, 156),white);
+    /*background-image: linear-gradient(rgb(198, 156, 156),white);*/
+    background-color: rgb(126, 126, 119);
+    border-radius: .75rem;
+    padding: 2rem;
+    margin: 2rem 1rem;
+    display: block;
+    box-shadow: .5rem .5rem 2rem rgb(126, 126, 119);
 }
 /*Header image, font color*/
 header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
+    padding: 3rem;
     color: rgb(251, 250, 237);
+    border-radius: .75rem;
+    text-align: center;
+    box-shadow: 4rem 1rem 2rem rgb(246, 131, 60);
+    text-shadow: .5rem .5rem .2rem rgb(253, 233, 171);
+}
+
+div {
+    align-items: center;
+    background-color: rgba(70, 65, 98, 0.489);
+    border-radius: 50%;
+    padding: 3rem;
+    margin: 5% 20%;
+    min-width: 14rem;
 }
 /*link styles*/
 a {
@@ -31,10 +54,19 @@ a:hover {
 }
 img {
     display: block;
-    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
     border: solid lightseagreen; 
+    border-radius: .75rem;
+
 }
 
 .subheading {
-    border-bottom: 10px rgb(255, 0, 0);
+    border-bottom: .1rem solid white;
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
 }
